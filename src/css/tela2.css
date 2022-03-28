@@ -1,0 +1,49 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.meio1 {
+    background-color: #252d37;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 530px;
+    height: 530px;
+    background-color: linear-gradient(#252d37, #22252b);
+    border-radius: 50px;
+}
+.meio1 .img img {
+    margin-top: 30px;
+    height: 200px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 60px;
+    color: #fb7413;
+    font-weight: bold;
+    background-color: #3a4449;
+    font-size: 20px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+.title2 {
+    font-size: 25px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.text {
+    color: #bbb;
+    font-size: 25px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+

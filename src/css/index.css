@@ -1,0 +1,101 @@
+main {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin-top: -50px;
+
+}
+
+.meio {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 550px;
+    background-color:hsl(213, 19%, 18%);
+    border-radius: 40px;
+}
+
+.star {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    margin: 40px;
+    border-radius: 25px;
+    background-color: #111;
+    
+}
+
+.star img{
+    height: 25px;
+}
+
+.title {
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+    margin-left: 40px;
+}
+
+p {
+    color: #fff;
+    margin: 30px 40px;
+    font-size: 30px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons ul {
+ display: flex;
+}
+.buttons ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    color: #666;
+    background-color: #111;
+    font-weight: bold;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    margin: 10px 20px;
+    border-radius: 50%;
+}
+
+.buttons ul li:hover {
+    cursor: pointer;
+    background-color: #999;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    height: 60px;
+    width: 400px;
+    border-radius: 30px;
+    margin-top: 10px;
+    color: #fff;
+    background-color: #fb7413;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    transition: ease 0.3s;
+    border: none;
+}
+
+button:hover {
+    color: #fb7413;
+    background-color: #fff;
+}
